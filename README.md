@@ -8,6 +8,8 @@ Note: use twilio credentials correct in the web app along with the message to be
 #### 2. twilio
 #### 3. cron
 #### First install above mentioned module to run the python code.
+# Run:
+Run app.py first to generalize the validation of app.
 
 
 
