@@ -1,4 +1,4 @@
-from crontab import CronTab
+from crontab import CronTab # this code will schedule the Twilio web app hourly except when john is in sleep
  
 my_cron = CronTab(user='root')
 job = my_cron.new(command='python app.py')
