@@ -1,0 +1,56 @@
+<html lang="en"><head>
+    <title>Twilio Web based App</title>
+
+
+    <link href="http://getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="http://getbootstrap.com/examples/jumbotron-narrow/jumbotron-narrow.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="header">
+            <nav>
+                <ul class="nav nav-pills pull-right">
+
+                </ul>
+            </nav>
+            <h1 class="text-muted">Twilio web based app</h1>
+        </div>
+
+        <div class="jumbotron">
+            <h2>Hello John welcome to web based texting app </h2>
+            <p class="lead"></p>
+            <form method="POST" action="/send">
+                <h3>Fill your Twilio credential here to recieve notification</h3>
+                <label for="inputNumber" class="sr-only">Account SID</label>
+                <input type="text" name="inputSID" class="form-control" placeholder="Account SID" required autofocus>
+                <label for="inputNumber" class="sr-only">Auth Token</label>
+                <input type="text" name="inputTOKEN" class="form-control" placeholder="Auth Token" required autofocus>
+                <label for="inputNumber" class="sr-only">Twilio Number</label>
+                <input type="text" name="inputTWILIONUMBER" class="form-control" placeholder="Twilio Number" required autofocus>
+                <label for="inputNumber" class="sr-only">Phone Nmber</label>
+                <input type="text" name="inputNumber" class="form-control" placeholder="Mobile number" required autofocus>
+                <label for="inputMessage" class="sr-only">Message</label>
+                <input type="text" name="inputMessage" class="form-control" placeholder="message" required>
+                <button class="btn btn-lg btn-primary btn-block" type="submit">Submit</button>
+            </form>
+            <h6>Note: write your phone  number starting with country code like "+91" </h6>
+        </div>
+
+
+    </div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
